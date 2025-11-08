@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font-base: "Poppins", sans-serif
+}
+
+html,body{
+    height: 100%;
+    font-family: var(--font-base);
+}
+h1{
+    font-size: 3.25rem; 
+}
+h2{
+    font-size: 2.75rem;
+    font-weight: 600;
+}
+h3{
+    font-size: 2.25rem;
+    font-weight: 500;
+}
+p{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
