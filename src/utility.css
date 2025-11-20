@@ -61,17 +61,4 @@
 .gap-5{
     gap: 1.5rem;
 }
-
-/* Buttons */
-.btn{
-    padding: 16px 36px;
-    background-color: #dddddd;
-    border-radius: 1.25rem;
-    transition: 0.25s ease-in-out;
-}
-.btn:hover{
-    transform:scale(1.015);
-    background-color: #2ca7d8;
-    color:#ffff;
-}
 /* Sombra */

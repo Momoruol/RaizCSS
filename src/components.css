@@ -1,0 +1,28 @@
+/* Buttons */
+.btn{
+    padding: 16px 36px;
+    background-color: #dddddd;
+    border-radius: 1.25rem;
+    transition: 0.25s ease-in-out;
+}
+.btn:hover{
+    transform:scale(1.015);
+    background-color: #2ca7d8;
+    color:#ffff;
+}
+/* Navbar */
+.nav{
+    height: 80px;
+    padding: 0 1.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item{
+    padding: 12px 20px;
+}
+.nav-item.active{
+    background-color: #2ca7d8;
+    border-radius: 1.25rem;
+    color: #fff;
+}
+/* Sidebar */
